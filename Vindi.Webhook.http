@@ -1,0 +1,8 @@
+@Vindi.Webhook_HostAddress = http://localhost:5108
+
+GET {{Vindi.Webhook_HostAddress}}/api/1234/bill
+Accept: application/json
+{
+  "mensagem": "Olá mundo"
+}
+###
