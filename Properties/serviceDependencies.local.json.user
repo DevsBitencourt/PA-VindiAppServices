@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "secrets2": {
+      "restored": true,
+      "restoreTime": "2026-03-14T02:17:23.2472663Z"
+    },
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2026-03-14T02:05:04.2269111Z"
+    },
+    "appInsights1": {
+      "restored": true,
+      "restoreTime": "2026-03-14T02:17:31.0982041Z"
+    }
+  },
+  "parameters": {
+    "appInsights1.resourceGroupName": {
+      "Name": "appInsights1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "devhealthrg-westus2"
+    },
+    "secrets1.resourceGroupName": {
+      "Name": "secrets1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "devhealthrg-westus2"
+    },
+    "secrets1.subscriptionId": {
+      "Name": "secrets1.subscriptionId",
+      "Type": "subscription",
+      "Value": "b197dbab-80cd-454b-a41c-08885b3eb8b5"
+    },
+    "appInsights1.subscriptionId": {
+      "Name": "appInsights1.subscriptionId",
+      "Type": "subscription",
+      "Value": "b197dbab-80cd-454b-a41c-08885b3eb8b5"
+    }
+  }
+}

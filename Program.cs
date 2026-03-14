@@ -15,9 +15,13 @@ builder.Services.AddControllers(options => { options.Conventions.Add(new TenantR
 
 // Adiciona o Key Vault como fonte de configuração
 builder.Configuration.AddAzureKeyVault(
-    new Uri("https://integracaovindi.vault.azure.net/"),
+    new Uri(builder.Configuration["Azure_KeyVault"]),
     new DefaultAzureCredential()
 );
+builder.Services.AddApplicationInsightsTelemetry(new Microsoft.ApplicationInsights.AspNetCore.Extensions.ApplicationInsightsServiceOptions
+{
+    ConnectionString = builder.Configuration["APPLICATIONINSIGHTS_CONNECTION_STRING"]
+});
 
 
 var app = builder.Build();

@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\personal\\P\u00F3s Gardua\u00E7\u00E3o - Arquitetura de Software\\ProjetoAplicado\\Backend\\Vindi.Webhook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{571A5B15-7B30-D45B-9B7C-AD7F5887AD1E}|Vindi.Webhook.csproj|d:\\personal\\p\u00F3s gardua\u00E7\u00E3o - arquitetura de software\\projetoaplicado\\backend\\vindi.webhook\\infrastructure\\azure\\servicebusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{571A5B15-7B30-D45B-9B7C-AD7F5887AD1E}|Vindi.Webhook.csproj|solutionrelative:infrastructure\\azure\\servicebusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{571A5B15-7B30-D45B-9B7C-AD7F5887AD1E}|Vindi.Webhook.csproj|d:\\personal\\p\u00F3s gardua\u00E7\u00E3o - arquitetura de software\\projetoaplicado\\backend\\vindi.webhook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{571A5B15-7B30-D45B-9B7C-AD7F5887AD1E}|Vindi.Webhook.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{571A5B15-7B30-D45B-9B7C-AD7F5887AD1E}|Vindi.Webhook.csproj|d:\\personal\\p\u00F3s gardua\u00E7\u00E3o - arquitetura de software\\projetoaplicado\\backend\\vindi.webhook\\controllers\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{571A5B15-7B30-D45B-9B7C-AD7F5887AD1E}|Vindi.Webhook.csproj|solutionrelative:controllers\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{571A5B15-7B30-D45B-9B7C-AD7F5887AD1E}|Vindi.Webhook.csproj|d:\\personal\\p\u00F3s gardua\u00E7\u00E3o - arquitetura de software\\projetoaplicado\\backend\\vindi.webhook\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{571A5B15-7B30-D45B-9B7C-AD7F5887AD1E}|Vindi.Webhook.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{571A5B15-7B30-D45B-9B7C-AD7F5887AD1E}|Vindi.Webhook.csproj|d:\\personal\\p\u00F3s gardua\u00E7\u00E3o - arquitetura de software\\projetoaplicado\\backend\\vindi.webhook\\vindi.webhook.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{571A5B15-7B30-D45B-9B7C-AD7F5887AD1E}|Vindi.Webhook.csproj|solutionrelative:vindi.webhook.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{571A5B15-7B30-D45B-9B7C-AD7F5887AD1E}|Vindi.Webhook.csproj|d:\\personal\\p\u00F3s gardua\u00E7\u00E3o - arquitetura de software\\projetoaplicado\\backend\\vindi.webhook\\infrastructure\\azure\\servicebusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{571A5B15-7B30-D45B-9B7C-AD7F5887AD1E}|Vindi.Webhook.csproj|solutionrelative:infrastructure\\azure\\servicebusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{571A5B15-7B30-D45B-9B7C-AD7F5887AD1E}|Vindi.Webhook.csproj|d:\\personal\\p\u00F3s gardua\u00E7\u00E3o - arquitetura de software\\projetoaplicado\\backend\\vindi.webhook\\models\\bills\\webhookrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +25,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{571A5B15-7B30-D45B-9B7C-AD7F5887AD1E}|Vindi.Webhook.csproj|d:\\personal\\p\u00F3s gardua\u00E7\u00E3o - arquitetura de software\\projetoaplicado\\backend\\vindi.webhook\\models\\bills\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{571A5B15-7B30-D45B-9B7C-AD7F5887AD1E}|Vindi.Webhook.csproj|solutionrelative:models\\bills\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{571A5B15-7B30-D45B-9B7C-AD7F5887AD1E}|Vindi.Webhook.csproj|d:\\personal\\p\u00F3s gardua\u00E7\u00E3o - arquitetura de software\\projetoaplicado\\backend\\vindi.webhook\\controllers\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{571A5B15-7B30-D45B-9B7C-AD7F5887AD1E}|Vindi.Webhook.csproj|solutionrelative:controllers\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +38,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 10,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vindi.Webhook",
+              "DocumentMoniker": "D:\\personal\\P\u00F3s Gardua\u00E7\u00E3o - Arquitetura de Software\\ProjetoAplicado\\Backend\\Vindi.Webhook\\Vindi.Webhook.csproj",
+              "RelativeDocumentMoniker": "Vindi.Webhook.csproj",
+              "ToolTip": "D:\\personal\\P\u00F3s Gardua\u00E7\u00E3o - Arquitetura de Software\\ProjetoAplicado\\Backend\\Vindi.Webhook\\Vindi.Webhook.csproj",
+              "RelativeToolTip": "Vindi.Webhook.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-14T02:16:48.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\personal\\P\u00F3s Gardua\u00E7\u00E3o - Arquitetura de Software\\ProjetoAplicado\\Backend\\Vindi.Webhook\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\personal\\P\u00F3s Gardua\u00E7\u00E3o - Arquitetura de Software\\ProjetoAplicado\\Backend\\Vindi.Webhook\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-14T02:05:16.296Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -50,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ServiceBusService.cs",
               "DocumentMoniker": "D:\\personal\\P\u00F3s Gardua\u00E7\u00E3o - Arquitetura de Software\\ProjetoAplicado\\Backend\\Vindi.Webhook\\Infrastructure\\Azure\\ServiceBusService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Azure\\ServiceBusService.cs",
@@ -63,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "WebhookRequest.cs",
               "DocumentMoniker": "D:\\personal\\P\u00F3s Gardua\u00E7\u00E3o - Arquitetura de Software\\ProjetoAplicado\\Backend\\Vindi.Webhook\\Models\\Bills\\WebhookRequest.cs",
               "RelativeDocumentMoniker": "Models\\Bills\\WebhookRequest.cs",
@@ -71,11 +105,12 @@
               "RelativeToolTip": "Models\\Bills\\WebhookRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T23:34:06.747Z"
+              "WhenOpened": "2026-03-13T23:34:06.747Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Event.cs",
               "DocumentMoniker": "D:\\personal\\P\u00F3s Gardua\u00E7\u00E3o - Arquitetura de Software\\ProjetoAplicado\\Backend\\Vindi.Webhook\\Models\\Bills\\Event.cs",
               "RelativeDocumentMoniker": "Models\\Bills\\Event.cs",
@@ -83,31 +118,34 @@
               "RelativeToolTip": "Models\\Bills\\Event.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T23:27:32.104Z"
+              "WhenOpened": "2026-03-13T23:27:32.104Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "BillController.cs",
               "DocumentMoniker": "D:\\personal\\P\u00F3s Gardua\u00E7\u00E3o - Arquitetura de Software\\ProjetoAplicado\\Backend\\Vindi.Webhook\\Controllers\\BillController.cs",
               "RelativeDocumentMoniker": "Controllers\\BillController.cs",
               "ToolTip": "D:\\personal\\P\u00F3s Gardua\u00E7\u00E3o - Arquitetura de Software\\ProjetoAplicado\\Backend\\Vindi.Webhook\\Controllers\\BillController.cs",
               "RelativeToolTip": "Controllers\\BillController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAIAwwCYAAABUAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAhwCYAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T22:45:19.2Z"
+              "WhenOpened": "2026-03-13T22:45:19.2Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\personal\\P\u00F3s Gardua\u00E7\u00E3o - Arquitetura de Software\\ProjetoAplicado\\Backend\\Vindi.Webhook\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\personal\\P\u00F3s Gardua\u00E7\u00E3o - Arquitetura de Software\\ProjetoAplicado\\Backend\\Vindi.Webhook\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T22:41:59.363Z"
+              "WhenOpened": "2026-03-13T22:41:59.363Z",
+              "EditorCaption": ""
             }
           ]
         }
