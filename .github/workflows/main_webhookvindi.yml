@@ -23,11 +23,16 @@ jobs:
         with:
           dotnet-version: '9.x'
 
-      - name: Build with dotnet
-        run: dotnet build --configuration Release
+       # ✅ Restaurar antes de buildar
+      - name: Restore dependencies
+        run: dotnet restore Vindi.Webhook.csproj
 
+      - name: Build with dotnet
+        run: dotnet build Vindi.Webhook.csproj --configuration Release --no-restore
+
+      # ✅ Aponta para o .csproj explicitamente
       - name: dotnet publish
-        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        run: dotnet publish Vindi.Webhook.csproj -c Release -o ${{env.DOTNET_ROOT}}/myapp --no-restore
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
