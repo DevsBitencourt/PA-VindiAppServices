@@ -20,12 +20,12 @@ builder.Services.AddHealthChecks()
 
 // Adiciona o Key Vault como fonte de configuração
 builder.Configuration.AddAzureKeyVault(
-    new Uri(builder.Configuration["Azure_KeyVault"]),
+    new Uri(Environment.GetEnvironmentVariable("Azure_KeyVault")),
     new DefaultAzureCredential()
 );
 builder.Services.AddApplicationInsightsTelemetry(new Microsoft.ApplicationInsights.AspNetCore.Extensions.ApplicationInsightsServiceOptions
 {
-    ConnectionString = builder.Configuration["APPLICATIONINSIGHTS_CONNECTION_STRING"]
+    ConnectionString = Environment.GetEnvironmentVariable("APPLICATIONINSIGHTS_CONNECTION_STRING")
 });
 
 
