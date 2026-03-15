@@ -1,7 +1,10 @@
+using Azure.Identity;
+using HealthChecks.UI.Client;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Vindi.Webhook.Infrastructure.Azure;
 using Vindi.Webhook.Infrastructure.Middlewares;
 using Vindi.Webhook.Models.Managers;
-using Azure.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +15,8 @@ builder.Services.AddScoped<TenantContext>();
 builder.Services.AddSingleton<ServiceBusService>();
 builder.Services.AddControllers(options => { options.Conventions.Add(new TenantRoutePrefixConvention()); });
 
+builder.Services.AddHealthChecks()
+    .AddCheck("self", () => HealthCheckResult.Healthy("API está rodando"), tags: new[] { "live" });
 
 // Adiciona o Key Vault como fonte de configuração
 builder.Configuration.AddAzureKeyVault(
@@ -27,6 +32,25 @@ builder.Services.AddApplicationInsightsTelemetry(new Microsoft.ApplicationInsigh
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+
+app.MapHealthChecks("/health/live", new HealthCheckOptions
+{
+    Predicate = check => check.Tags.Contains("live"),
+    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+});
+
+// Endpoint de readiness — indica se o app está pronto para receber tráfego
+app.MapHealthChecks("/health/ready", new HealthCheckOptions
+{
+    Predicate = check => check.Tags.Contains("ready"),
+    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+});
+
+// Endpoint completo — todos os checks
+app.MapHealthChecks("/health", new HealthCheckOptions
+{
+    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+});
 
 
 app.UseRouting();
